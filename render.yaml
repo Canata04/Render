@@ -2,14 +2,12 @@ databases:
   - name: mysite
     databaseName: mysite
     user: mysite
-    region:singapore
     plan:free
     
 services:
   - type: web
     name: mysite
     env: python
-    region: singapore
     plan: free
     branch: main
     healthCheckPath: /
